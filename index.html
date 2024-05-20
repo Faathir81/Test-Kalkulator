@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Keliling Segitiga</h1>
+    </div>
+    <div class="hero">
+      <div class="fatir-kun">
+        <p>Rumus Keliling Segitiga yaitu :</p>
+        <ul>
+          <p id="Kapibara3">K = S1 + S2 + S3</p>
+          <p>Keterangan</p>
+          <li>K = Keliling</li>
+          <li>S1 = Sisi A</li>
+          <li>S2 = Sisi B</li>
+          <li>S3 = Sisi C</li>
+        </ul>
+      </div>
+      <img class="gambar" src="https://www.wikihow.com/images_en/thumb/3/38/Find-the-Perimeter-of-a-Triangle-Step-1-Version-2.jpg/v4-460px-Find-the-Perimeter-of-a-Triangle-Step-1-Version-2.jpg.webp" alt="" />
+    </div>
+    <div class="kalkulator">
+      <input type="number" id="Kapibara" name="perhitungan" placeholder="Masukkan sisi 1" />
+      <br />
+      <input type="number" id="Kapibara1" name="perhitungan" placeholder="Masukkan sisi 2" />
+      <br />
+      <input type="number" id="Kapibara2" name="perhitungan" placeholder="Masukkan sisi 3" />
+      <br />
+      <p id="Hasil_Perhitungan"></p>
+      <button type="button" onclick="myFunction()">Hitung</button>
+      <button type="button" onclick="resetForm()">Reset</button>
+    </div>
+
+    <div class="heading">
+      <h1>Luas Segitiga</h1>
+    </div>
+    <div class="hero">
+      <div class="fatir-kun">
+        <p>Rumus Luas Segitiga yaitu :</p>
+        <ul>
+          <p id="Kapibara4">L = 1/2 x a x t</p>
+          <p>Keterangan</p>
+          <li>L = Luas</li>
+          <li>a = Panjang Alas</li>
+          <li>t = Tinggi</li>
+        </ul>
+      </div>
+      <img class="gambar" src="https://cdn.idntimes.com/content-images/post/20220331/segitiga-bedb6bfa81f353e1d00619c1657e6bdc.png" alt="" />
+    </div>
+    <div class="kalkulator">
+      <input type="number" id="Kapibara5" name="perhitungan" placeholder="Masukkan alas" />
+      <br />
+      <input type="number" id="Kapibara6" name="perhitungan" placeholder="Masukkan tinggi" />
+      <br />
+      <p id="Hasil_Perhitungan2"></p>
+      <button type="button" onclick="myFunction2()">Hitung</button>
+      <button type="button" onclick="resetForm2()">Reset</button>
+    </div>
+    <div class="footer">
+      <!-- Di bagian bawah setelah konten lainnya -->
+      <footer>
+        <p>&copy; 2024 - Kalkulator Segitiga</p>
+      </footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
